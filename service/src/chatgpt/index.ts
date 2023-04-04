@@ -28,6 +28,7 @@ const disableDebug: boolean = process.env.OPENAI_API_DISABLE_DEBUG === 'true'
 
 let apiModel: ApiModel
 
+console.log(process.env.OPENAI_API_KEY)
 if (!isNotEmptyString(process.env.OPENAI_API_KEY) && !isNotEmptyString(process.env.OPENAI_ACCESS_TOKEN))
   throw new Error('Missing OPENAI_API_KEY or OPENAI_ACCESS_TOKEN environment variable')
 
@@ -40,7 +41,8 @@ let api: ChatGPTAPI | ChatGPTUnofficialProxyAPI
     const OPENAI_API_BASE_URL = process.env.OPENAI_API_BASE_URL
     const OPENAI_API_MODEL = process.env.OPENAI_API_MODEL
     const model = isNotEmptyString(OPENAI_API_MODEL) ? OPENAI_API_MODEL : 'gpt-3.5-turbo'
-
+    console.log('OPENAI_API_BASE_URL', OPENAI_API_BASE_URL)
+    console.log('OPENAI_API_MODEL', OPENAI_API_MODEL)
     const options: ChatGPTAPIOptions = {
       apiKey: process.env.OPENAI_API_KEY,
       completionParams: { model },
