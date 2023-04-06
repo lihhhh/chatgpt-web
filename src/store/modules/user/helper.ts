@@ -15,7 +15,7 @@ export interface UserState {
 export function defaultSetting(): UserState {
   return {
     userInfo: {
-      avatar: '/avatar.jpeg',
+      avatar: '/avatar.jpg',
       name: 'gpt',
       description: 'gpt',
     },

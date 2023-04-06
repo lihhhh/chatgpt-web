@@ -60,6 +60,7 @@ function handleSubmit() {
 }
 
 async function onConversation() {
+  debugger
   let message = prompt.value
 
   if (loading.value)

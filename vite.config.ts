@@ -41,7 +41,7 @@ export default defineConfig((env) => {
           changeOrigin: true, // 允许跨域
           rewrite: path => path.replace('/api/', '/'),
         },
-      },
+      }
     },
     build: {
       reportCompressedSize: false,
@@ -49,6 +49,6 @@ export default defineConfig((env) => {
       commonjsOptions: {
         ignoreTryCatch: false,
       },
-    },
+    }
   }
 })
