@@ -1,0 +1,44 @@
+# OpenAI API Key - https://platform.openai.com/overview
+OPENAI_API_KEY=
+
+# change this to an `accessToken` extracted from the ChatGPT site's `https://chat.openai.com/api/auth/session` response
+OPENAI_ACCESS_TOKEN=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1UaEVOVUpHTkVNMVFURTRNMEZCTWpkQ05UZzVNRFUxUlRVd1FVSkRNRU13UmtGRVFrRXpSZyJ9.eyJodHRwczovL2FwaS5vcGVuYWkuY29tL3Byb2ZpbGUiOnsiZW1haWwiOiJzdGV2ZW4wMTAxNjhAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWV9LCJodHRwczovL2FwaS5vcGVuYWkuY29tL2F1dGgiOnsidXNlcl9pZCI6InVzZXItejVNUWxhazZvMllBaWhYV09MQUt6eGNjIn0sImlzcyI6Imh0dHBzOi8vYXV0aDAub3BlbmFpLmNvbS8iLCJzdWIiOiJhdXRoMHw2NDIxNTFmMjg1MjhhZGU4Mzg5OTE4ZWEiLCJhdWQiOlsiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS92MSIsImh0dHBzOi8vb3BlbmFpLm9wZW5haS5hdXRoMGFwcC5jb20vdXNlcmluZm8iXSwiaWF0IjoxNjgxMjc3NDI2LCJleHAiOjE2ODI0ODcwMjYsImF6cCI6IlRkSkljYmUxNldvVEh0Tjk1bnl5d2g1RTR5T282SXRHIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBtb2RlbC5yZWFkIG1vZGVsLnJlcXVlc3Qgb3JnYW5pemF0aW9uLnJlYWQgb2ZmbGluZV9hY2Nlc3MifQ.nyHZQLtE8cES2jDVY3DnBEibBdc_gNDAuuf_NmSEAyCVK-53-mlu-UYNCWV9EePBbrk_n4kDUSe-xemyRsC6CLPErOkAW1APE2FAyU_oU0sqGQzsSD_6otEYz5U1BBcwAiJCFFzCYlnfXyI04DTSZQpqtJVzOxO8EHHX9x3QM17cr7GkZYd1EMVhJFJ5J3ZQ36IlcPoNfzifWMTNX2Onf5MPZxhsfmm4Jo8E3oYiCxJLjC2hoO8nWsPdtrOXkDz9Cz19QZyv6nrTGUJZmgUOB8nYu7VJE7mdnG-xm-ZkKOtcRXGVSX0kbZqj9nuALS6A7wK5aCZWnzSQSnHD659OXQ
+
+# OpenAI API Base URL - https://api.openai.com
+OPENAI_API_BASE_URL=
+
+# OpenAI API Model - https://platform.openai.com/docs/models
+OPENAI_API_MODEL=
+
+# set `true` to disable OpenAI API debug log
+OPENAI_API_DISABLE_DEBUG=
+
+# Reverse Proxy - Available on accessToken
+# Default: https://ai.fakeopen.com/api/conversation
+# More: https://github.com/transitive-bullshit/chatgpt-api#reverse-proxy
+API_REVERSE_PROXY=
+
+# timeout
+TIMEOUT_MS=100000
+
+# Rate Limit
+MAX_REQUEST_PER_HOUR=
+
+# Secret key
+AUTH_SECRET_KEY=
+
+# Socks Proxy Host
+SOCKS_PROXY_HOST=
+
+# Socks Proxy Port
+SOCKS_PROXY_PORT=
+
+# Socks Proxy Username
+SOCKS_PROXY_USERNAME=
+
+# Socks Proxy Password
+SOCKS_PROXY_PASSWORD=
+
+# HTTPS PROXY
+HTTPS_PROXY=
+
